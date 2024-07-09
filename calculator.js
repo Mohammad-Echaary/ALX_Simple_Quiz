@@ -1,14 +1,18 @@
 function add(one, two) {
-  document.getElementById("calculation-result").textContent = +one + +two;
+  return (document.getElementById("calculation-result").textContent =
+    +one + +two);
 }
 function subtract(one, two) {
-  document.getElementById("calculation-result").textContent = +one - +two;
+  return (document.getElementById("calculation-result").textContent =
+    +one - +two);
 }
 function multiply(one, two) {
-  document.getElementById("calculation-result").textContent = +one * +two;
+  return (document.getElementById("calculation-result").textContent =
+    +one * +two);
 }
 function divide(one, two) {
-  document.getElementById("calculation-result").textContent = +one / +two;
+  return (document.getElementById("calculation-result").textContent =
+    +one / +two);
 }
 let num1 = document.getElementById("number1");
 let num2 = document.getElementById("number2");
